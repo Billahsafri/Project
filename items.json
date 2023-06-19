@@ -1,0 +1,43 @@
+{
+    "music" : [
+        {
+            "id": 1,
+            "name": "Album 1",
+            "price": 1000,
+            "imgName": "Album post.png"
+        },
+        {
+            "id": 2,
+            "name": "Album 2",
+            "price": 1000,
+            "imgName": "Hollywood bleeding.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Album 3",
+            "price": 1000,
+            "imgName": "B&B.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Album 4",
+            "price": 1000,
+            "imgName": "Stoney.jpeg"
+        }
+    ],
+    "merch" : [
+        {
+            "id": 5,
+            "name": "T-Shirt",
+            "price": 2000,
+            "imgName": "Post t shirt.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Poster",
+            "price": 2000,
+            "imgName": "Post poster.jpeg"
+        }
+
+    ]
+}

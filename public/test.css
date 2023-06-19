@@ -1,0 +1,247 @@
+@font-face {
+    font-family: monsterrat1;
+    src: url(Fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: monsterrat2;
+    src: url(Fonts/Montserrat-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    color: #777;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba (225,225,225, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+    font-size: large;
+}
+
+.main-header {
+    background-image: url("post\ images/post malone bg.jpeg");
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    background-position: center;
+    height: 370px;
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: multiply;
+
+}
+
+.post-malone-big {
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+    font-family: Monsterrat1;
+    font-weight: normal;
+    color: rgba(245, 245, 245, 1);
+}
+
+.section-header {
+   font-family: Monsterrat2;
+   margin-top: 1;
+   color: black;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 1.5em;
+   text-align: center;
+}
+
+.content-section {
+    margin: 1em;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.3em;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3em .7em;
+}
+
+.post-about-image {
+    float: right;
+    margin: 15px;
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    margin-top: auto;
+}
+
+.post-malone-footer {
+    text-align: left;
+    padding: .25em 0;
+    margin: 0;
+    font-size: 2em;
+    font-family: Monsterrat1;
+    font-weight: normal;
+    color: aliceblue;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.main-footer li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .7em 20% .3em 20%;
+    color: rgb(205, 190, 190);
+    border: 2px solid rgb(169, 115, 115);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0%;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.button-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 4em;
+    border-radius: 50%;
+}
+
+.album-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.album-btn {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    border: none;
+    border-radius: 10%;
+    padding: 8px 15px;
+    width: 180px;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.album-row {
+    display: flex;
+    align-items: center;
+}
+
+.album-row span {
+    margin-right: 19px;
+}
+
+.btn-primary1 {
+    color: whitesmoke;
+    background-color: rgba(233,92,49,255);
+}
+
+.btn-primary2 {
+    color: whitesmoke;
+    background-color: rgba(208,200,31,255);
+}
+.btn-primary3 {
+    color: whitesmoke;
+    background-color: rgba(30,80,113,255);
+}
+.btn-primary4 {
+    color: whitesmoke;
+    background-color: rgba(103,3,5,255);
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+.album-row:last-child {
+    border-bottom: none;
+}
+
+.album-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.album-date {
+    color: #555;
+    font-weight: bold;
+    width: 30%;
+}
+
+.album-name {
+    width: 35%;
+}
+
+.album-songs {
+    width: 32%;
+}

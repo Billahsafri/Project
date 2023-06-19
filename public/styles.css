@@ -1,0 +1,349 @@
+@font-face {
+    font-family: monsterrat1;
+    src: url(Fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: monsterrat2;
+    src: url(Fonts/Montserrat-Bold.ttf);
+}
+
+* 
+{
+    box-sizing: border-box;
+    font-family: monospace;
+    color: #777
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline ;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    top: 0;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+    font-size: 1.7em;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("post\ images/post malone 4k.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    background-position: center;
+    height: 375px;
+}
+
+.post-malone {
+    font-family: monsterrat1;
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    font-style: normal;
+    color: rgba(245, 245, 245, .6);
+}
+
+.post-malone-big {
+    font-size: 5em;
+}
+
+.content-section {
+    margin: 1em;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2em;
+    background-size: cover;
+    
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: monsterrat2;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.post-about-image {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 10%;
+}
+
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    margin-top: auto;
+}
+
+.post-malone-footer {
+    text-align: left;
+    padding: .25em 0;
+    margin: 0;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.post-index {
+    font-family: monsterrat1;
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    font-style: normal;
+    color: rgba(245, 245, 245, .6);
+    padding: .2em;
+    padding-bottom: .25em;
+}
+
+.button-header {
+    margin: .7em 20% .5em 20%;
+    color: rgb(205, 190, 190);
+    border: 2px solid whitesmoke;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0%;
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-style: normal;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.button-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.button-play {
+    display: block;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 1.25em;
+    border-radius: 50%;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.album-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 3em;
+    margin-bottom: 1em;
+}
+
+.album-row {
+    display: flex;
+    align-items: center;
+}
+
+.album-row span {
+    margin-right: 10px;
+}
+
+.album-row:last-child {
+    border-bottom: none;
+}
+
+.album-item {
+    display: inline-block;
+    padding-right: 5em;
+}
+
+.album-date {
+    color: #555;
+    font-weight: bold;
+    width: 30%;
+}
+
+.album-name {
+    width: 24%;
+}
+
+.album-songs {
+    width: 42%;
+}
+
+.album-btn {
+    font-size: 16px;
+    font-style: normal;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 160px;
+    height: 36px;
+    padding: 10px 20px;
+}
+
+.btn-primary1 {
+    color: whitesmoke;
+    background-color: rgba(233,92,49,255);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary2 {
+    color: whitesmoke;
+    background-color: rgba(208,200,31,255);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primary3 {
+    color: whitesmoke;
+    background-color: rgba(30,80,113,255);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primary4 {
+    color: whitesmoke;
+    background-color: rgba(103,3,5,255);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quantity {
+    width: 35%;
+}
